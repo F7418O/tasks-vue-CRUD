@@ -4,7 +4,7 @@
     @click="this.$router.push(`/tasks/${task._id}`)"
     class="list-group-item list-group-item-action"
     style="cursor: pointer">
-      {{task.title}}
+     {{index + 1}}: {{task.title}}
     </li>
   </ul>
 </template>
