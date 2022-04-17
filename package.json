@@ -1,8 +1,11 @@
 {
   "name": "tasks-vue",
   "version": "0.1.0",
+  "homepage": "http://f7418o.github.io/tasks-vue-CRUD",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
@@ -12,6 +15,7 @@
     "axios": "^0.24.0",
     "bootswatch": "^5.1.3",
     "core-js": "^3.6.5",
+    "gh-pages": "^3.2.3",
     "vue": "^3.0.0",
     "vue-router": "^4.0.12"
   },
